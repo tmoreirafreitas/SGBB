@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BoletoNetCore.Pdf\BoletoNetCore.Pdf.csproj" />
+    <ProjectReference Include="..\BoletoNetCore\BoletoNetCore.csproj" />
+    <ProjectReference Include="..\SGBB.Utilities\SGBB.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
